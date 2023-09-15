@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.ubicacion {
+    margin: 1em;
+}
+/*
+.logoferreteria {
+    width: 650px;
+    height: 300px;
+}
+*/
+.imgicon {
+    width: 20;
+    height: 25px;
+    padding-bottom: 0.2em;
+}
+
+.title {
+    font-size: 36px;
+    color: #141414;
+    font-weight: bold;
+
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #141414;
+}
+
+.search-bar {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+#searchButton {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #003f81;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #141414;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 150px;
+    height: 140px;
+}
+
+.product-card h4 {
+    margin-top: 10px;
+}
+
+.product-card p {
+    color: #777;
+}
+
+.product-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para el botón de WhatsApp */
+body {
+    position: relative;
+}
+
+
+
+
+.col {
+    width: 300px;
+}
+
+/* Agrega la clase .scroll-up para ocultar elementos al hacer scroll hacia arriba */
+.scroll-up {
+    transform: translateY(-100%);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Asegúrate de que estos estilos se apliquen a .search-bar y .navbar */
+.search-bar.scroll-up,
+.navbar.scroll-up {
+    transform: translateY(0);
+}
+
+
+/* Estilos para el botón flotante */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    left: 20px; /* Ajusta la distancia desde la parte izquierda */
+    background-color: #75adea; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+    display: none; /* Oculta el botón inicialmente */
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para la flecha hacia arriba */
+.scroll-to-top::before {
+    content: '\2191'; /* Código de la flecha hacia arriba */
+}
+
+/* Añade un sombreado suave al botón */
+.scroll-to-top:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+
+/* Estilos para el contenedor de los botones flotantes */
+.floating-buttons {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la parte derecha */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+/* Estilos para los botones flotantes */
+.floating-button {
+    margin-top: 10px; /* Espacio entre los botones */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para los botones flotantes al pasar el cursor */
+.floating-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+@media (max-width: 576px) {
+    .logoferreteria {
+        /* Estilos para la imagen en pantallas pequeñas */
+        width: 150px; /* Hace que la imagen se ajuste al ancho del contenedor padre */
+        height: 100px; /* Ajusta la altura automáticamente para mantener la proporción */
+    }
+}
+
+/* Media query para pantallas medianas (por ejemplo, tabletas) */
+@media (min-width: 577px) and (max-width: 991px) {
+    .logoferreteria {
+        /* Estilos para la imagen en pantallas medianas */
+        max-width: 80%; /* Cambia el ancho máximo de la imagen */
+        height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    }
+}
+
+/* Media query para pantallas grandes (por ejemplo, escritorios) */
+@media (min-width: 992px) {
+    .logoferreteria {
+        /* Estilos para la imagen en pantallas grandes */
+        width: 650px; /* Cambia el ancho máximo de la imagen */
+        height: 300px; /* Ajusta la altura automáticamente para mantener la proporción */
+    }
+}
