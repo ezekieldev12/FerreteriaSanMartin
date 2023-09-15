@@ -404,3 +404,9 @@ var header = document.querySelector('.header');
             scrollButton.style.display = 'none';
         }
     });
+
+    // Cargar la imagen desde JavaScript
+    document.addEventListener('DOMContentLoaded', function () {
+        const logoImage = document.getElementById('logoImage');
+        logoImage.src = '/image/tirador.jpg';
+    });

@@ -201,28 +201,17 @@ body {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .logoferreteria {
-        /* Estilos para la imagen en pantallas pequeñas */
-        width: 150px; /* Hace que la imagen se ajuste al ancho del contenedor padre */
-        height: 100px; /* Ajusta la altura automáticamente para mantener la proporción */
+        max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+        height: auto; /* Mantendrá la proporción de aspecto original */
     }
 }
 
-/* Media query para pantallas medianas (por ejemplo, tabletas) */
-@media (min-width: 577px) and (max-width: 991px) {
+/* Estilos para dispositivos de escritorio (ancho mayor a 768px) */
+@media (min-width: 769px) {
     .logoferreteria {
-        /* Estilos para la imagen en pantallas medianas */
-        max-width: 80%; /* Cambia el ancho máximo de la imagen */
-        height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-    }
-}
-
-/* Media query para pantallas grandes (por ejemplo, escritorios) */
-@media (min-width: 992px) {
-    .logoferreteria {
-        /* Estilos para la imagen en pantallas grandes */
-        width: 650px; /* Cambia el ancho máximo de la imagen */
-        height: 300px; /* Ajusta la altura automáticamente para mantener la proporción */
+        width: 550px; /* Establece el ancho máximo deseado */
+        height: 200px; /* Mantendrá la proporción de aspecto original */
     }
 }
