@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-color: #007bff;
+    background-color: #fff;
     color: #fff;
     padding: 50px 0;
     text-align: center;
@@ -44,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     max-width: 500px;
+    
 }
 
 #searchInput {
