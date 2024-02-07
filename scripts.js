@@ -289,6 +289,160 @@ const productosAccesorios = [
     
 ];
 
+//Plomeria
+
+const productosPlomeria = [
+    { name: 'Caño de fusion de 20',                    description: '',                      precio:'1566',    image: 'image/caño fusion.jpg' },
+    { name: 'Caño de fusion de 25',                    description: '',                      precio:'',        image: 'image/caño fusion.jpg' },
+    { name: 'Caño de fusion de 32',                    description: '',                      precio:'',        image: 'image/caño fusion.jpg' },
+    { name: 'Codo de 20 fusion',                       description: '',                      precio:'',        image: 'image/codo fusion.jpg' },
+    { name: 'Codo de 25 fusion',                       description: '',                      precio:'',        image: 'image/codo fusion.jpg' },
+    { name: 'Codo de 32 fusion',                       description: '',                      precio:'',        image: 'image/codo fusion.jpg' },
+    { name: 'Codo de reduccion de 25x20 de Fusion',    description: '',                      precio:'',        image: 'image/codo reduccion.jpg' },
+    { name: 'Codo de reduccion de 32x20 de Fusion',    description: '',                      precio:'',        image: 'image/codo reduccion.jpg' },
+    { name: 'Codo de reduccion de 32x25 de Fusion',    description: '',                      precio:'',        image: 'image/codo reduccion.jpg' },
+    { name: 'Codo a 45 de 20 de Fusion',               description: '',                      precio:'',        image: 'image/codo curva.jpg' },
+    { name: 'Codo a 45 de 25 de Fusion',               description: '',                      precio:'',        image: 'image/codo curva.jpg' },
+    { name: 'Codo a 45 de 32 de Fusion',               description: '',                      precio:'',        image: 'image/codo curva.jpg' },
+    { name: 'Cupla de 20 de Fusion',                   description: '',                      precio:'',        image: 'image/cupla.jpg' },
+    { name: 'Cupla de 25 de Fusion',                   description: '',                      precio:'',        image: 'image/cupla.jpg' },
+    { name: 'Cupla de 32 de Fusion',                   description: '',                      precio:'',        image: 'image/cupla.jpg' },
+    { name: 'Cupla de reduccion de 25x20 de Fusion',   description: '',                      precio:'',        image: 'image/cupla reduccion.jpg' },
+    { name: 'Cupla de reduccion de 32x20 de Fusion',   description: '',                      precio:'',        image: 'image/cupla reduccion.jpg' },
+    { name: 'Cupla de reduccion de 32x25 de Fusion',   description: '',                      precio:'',        image: 'image/cupla reduccion.jpg' },
+    { name: 'Buje de reduccion de 25x20 de Fusion',    description: '',                      precio:'',        image: 'image/buje reduccion.jpg' },
+    { name: 'Buje de reduccion de 32x20 de Fusion',    description: '',                      precio:'',        image: 'image/buje reduccion.jpg' },
+    { name: 'Buje de reduccion de 32x25 de Fusion',    description: '',                      precio:'',        image: 'image/buje reduccion.jpg' },
+    { name: 'Tee de 20 de Fusion',                     description: '',                      precio:'',        image: 'image/tee.jpg' },
+    { name: 'Tee de 25 de Fusion',                     description: '',                      precio:'',        image: 'image/tee.jpg' },
+    { name: 'Tee de 32 de Fusion',                     description: '',                      precio:'',        image: 'image/tee.jpg' },
+    { name: 'Tee de reduccion de 25x20 de Fusion',     description: '',                      precio:'',        image: 'image/tee reduccion.jpg' },
+    { name: 'Sobrepaso de 25',                         description: '',                      precio:'',        image: 'image/tee sobrepaso.jpg' },
+    { name: 'Tapa de 20 de Fusion',                    description: '',                      precio:'',        image: 'image/tapa fusion.jpg' },
+    { name: 'Tapa de 25 de Fusion',                    description: '',                      precio:'',        image: 'image/tapa fusion.jpg' },
+    { name: 'Tapa de 32 de Fusion',                    description: '',                      precio:'',        image: 'image/tapa fusion.jpg' },
+    { name: 'Curva de 20 de Fusion',                   description: '',                      precio:'',        image: 'image/curva fusion.jpg' },
+    { name: 'Curva de 25 de Fusion',                   description: '',                      precio:'',        image: 'image/curva fusion.jpg' },
+    { name: 'Union doble de 20 de Fusion',             description: '',                      precio:'',        image: 'image/union doble.jpg' },
+    { name: 'Union doble de 25 de Fusion',             description: '',                      precio:'',        image: 'image/union doble.jpg' },
+    { name: 'Union doble de 32 de Fusion',             description: '',                      precio:'',        image: 'image/union doble.jpg' },
+    { name: 'Codo Hembra de 20x1/2 de Fusion',         description: '',                      precio:'',        image: 'image/codo hembra.jpg' },
+    { name: 'Codo Hembra de 25x1/2 de Fusion',         description: '',                      precio:'',        image: 'image/codo hembra.jpg' },
+    { name: 'Codo Hembra de 25x3/4 de Fusion',         description: '',                      precio:'',        image: 'image/codo hembra.jpg' },
+    { name: 'Codo Hembra de 32x1 de Fusion',           description: '',                      precio:'',        image: 'image/codo hembra.jpg' },
+    { name: 'Codo Macho de 20x1/2 de Fusion',          description: '',                      precio:'',        image: 'image/codo macho.jpg' },
+    { name: 'Codo Macho de 25x1/2 de Fusion',          description: '',                      precio:'',        image: 'image/codo macho.jpg' },
+    { name: 'Codo Macho de 25x3/4 de Fusion',          description: '',                      precio:'',        image: 'image/codo macho.jpg' },
+    { name: 'Codo Macho de 32x1 de Fusion',            description: '',                      precio:'',        image: 'image/codo macho.jpg' },
+    { name: 'Cupla Hembra de 20x3/8 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 20x1/2 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 25x1/2 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 20x3/4 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 25x3/4 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 32x1 de Fusion',          description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Hembra de 32x1/2 de Fusion',        description: '',                      precio:'',        image: 'image/cupla hembra.jpg' },
+    { name: 'Cupla Macho de 20x1/2 de Fusion',         description: '',                      precio:'',        image: 'image/cupla macho.jpg' },
+    { name: 'Cupla Macho de 25x1/2 de Fusion',         description: '',                      precio:'',        image: 'image/cupla macho.jpg' },
+    { name: 'Cupla Macho de 20x3/4 de Fusion',         description: '',                      precio:'',        image: 'image/cupla macho.jpg' },
+    { name: 'Cupla Macho de 25x3/4 de Fusion',         description: '',                      precio:'',        image: 'image/cupla macho.jpg' },
+    { name: 'Cupla Macho 32x1 de Fusion',              description: '',                      precio:'',        image: 'image/cupla macho.jpg' },
+    { name: 'Tee Hembra de 20x1/2 de Fusion',          description: '',                      precio:'',        image: 'image/tee hembra.jpg' },
+    { name: 'Tee Hembra de 25x1/2 de Fusion',          description: '',                      precio:'',        image: 'image/tee hembra.jpg' },
+    { name: 'Tee Hembra de 25x3/4 de Fusion',          description: '',                      precio:'',        image: 'image/tee hembra.jpg' },
+    { name: 'Tee Macho de 20x1/2 de Fusion',           description: '',                      precio:'',        image: 'image/tee macho.jpg' },
+    { name: 'Tee Macho de 25x1/2 de Fusion',           description: '',                      precio:'',        image: 'image/tee macho.jpg' },
+    { name: 'Valvula Esferica de 20 de Fusion',        description: '',                      precio:'',        image: 'image/valvula esferica.jpg' },
+    { name: 'Valvula Esferica de 25 de Fusion',        description: '',                      precio:'',        image: 'image/valvula esferica.jpg' },
+    { name: 'Valvula Esferica de 32 de Fusion',        description: '',                      precio:'',        image: 'image/valvula esferica.jpg' },
+    { name: 'Valvula con Campana de 20 de Fusion',     description: '',                      precio:'',        image: 'image/valvula con campana.jpg' },
+    { name: 'Valvula con Campana de 25 de Fusion',     description: '',                      precio:'',        image: 'image/valvula con campana.jpg' },
+    { name: 'Valvula con Campana de 32 de Fusion',     description: '',                      precio:'',        image: 'image/valvula con campana.jpg' },
+    { name: 'Brida Para Tanque 1/2',                   description: '',                      precio:'',        image: 'image/brida.jpg' },
+    { name: 'Boquilla de Termofusion de 20mm',         description: '',                      precio:'',        image: 'image/boquilla termofusion.jpg' },
+    { name: 'Boquilla de Termofusion de 25mm',         description: '',                      precio:'',        image: 'image/boquilla termofusion.jpg' },
+    { name: 'Boquilla de Termofusion de 32m',          description: '',                      precio:'',        image: 'image/boquilla termofusion.jpg' },
+    //{ name: '',             description: '',                      precio:'',        image: 'image/e69aluminio.jpg' },
+    //{ name: '',             description: '',                      precio:'',        image: 'image/e69aluminio.jpg' },
+    //{ name: '',             description: '',                      precio:'',        image: 'image/e69aluminio.jpg' },
+    //{ name: '',             description: '',                      precio:'',        image: 'image/e69aluminio.jpg' },
+];
+
+
+
+//electricidad
+
+const productosElectricidad = [
+    { name: 'Bucapolo interelec',                               description: '',                      precio:'',        image: 'image/buscapolo.jpg' },
+    { name: 'Cable Unipolar Homologado 1 x 1,5mm',              description: '',                      precio:'',        image: 'image/cable unipolar.jpg' },
+    { name: 'Cable Unipolar Homologado 1 x 2,5mm',              description: '',                      precio:'',        image: 'image/cable unipolar.jpg' },
+    { name: 'Cable Unipolar Homologado 1 x 4mm',                description: '',                      precio:'',        image: 'image/cable unipolar.jpg' },
+    { name: 'Cable Unipolar Homologado 1 x 6mm',                description: '',                      precio:'',        image: 'image/cable unipolar.jpg' },
+    { name: 'Cable Bipolar de 2 x 1mm',                         description: '',                      precio:'',        image: 'image/cable bipolar.jpg' },
+    { name: 'Cable Bipolar 2 x 1,5mm',                          description: '',                      precio:'',        image: 'image/cable bipolar.jpg' },
+    { name: 'Cable Bipolar 2 x 2,5mm',                          description: '',                      precio:'',        image: 'image/cable bipolar.jpg' },
+    { name: 'Cable Tipo Taller 2 x 1mm Homologado',             description: '',                      precio:'',        image: 'image/cable taller.jpg' },
+    { name: 'Cable Tipo Taller 2 x 1,5mm Homologado',           description: '',                      precio:'',        image: 'image/cable taller.jpg' },
+    { name: 'Cable Tipo Taller 2 x 2,5mm Homologado',           description: '',                      precio:'',        image: 'image/cable taller.jpg' },
+    { name: 'Cable Tipo Taller 2 x 4mm Homologado',             description: '',                      precio:'',        image: 'image/cable taller.jpg' },
+    { name: 'Cable Tipo Taller 3 x 1,5mm Homologado',           description: '',                      precio:'',        image: 'image/cable taller3.jpg' },
+    { name: 'Cable coaxil x 150mts',                            description: '',                      precio:'',        image: 'image/cable coaxil.jpg' },
+    { name: 'Cable Coaxil x 300mts en Bobina',                  description: '',                      precio:'',        image: 'image/cable bobina.jpg' },
+    { name: 'Cable Concentrico 6 x 200mts cobre y Aluminio',    description: '',                      precio:'',        image: 'image/cable concentrico.jpg' },
+    { name: 'Cable Concentrico 10 x 200mts Aluminio/cobre',     description: '',                      precio:'',        image: 'image/cable concentrico.jpg' },
+    { name: 'Cable para Calefon de 2 mts',                      description: '',                      precio:'',        image: 'image/cable calefon.jpg' },
+    { name: 'Cable Canal de 14 x 7mm Eco    ',                  description: '',                      precio:'',        image: 'image/cable canal.jpg' },
+    { name: 'Cable Canal de 14x7 x 2m Kalop',                   description: '',                      precio:'',        image: 'image/cable canal.jpg' },
+    { name: 'Cable Canal de 20x10 x 2m Kalop',                  description: '',                      precio:'',        image: 'image/cable canal.jpg' },
+    { name: 'Cable Canal de 20x18 x 2m Kalop',                  description: '',                      precio:'',        image: 'image/cable canal.jpg' },
+    { name: 'Calorito',                                         description: '',                      precio:'',        image: 'image/calorito.jpg' },
+    { name: 'Corrugado Liviano de 3/4 Tecnocom',                description: '',                      precio:'',        image: 'image/corrugado.jpg' },
+    { name: 'Corrugado Liviano de 7/8 Tecnocom',                description: '',                      precio:'',        image: 'image/corrugado.jpg' },
+    { name: 'Corrugado Liviano de x 1 Tecnocom',                description: '',                      precio:'',        image: 'image/corrugado.jpg' },
+    { name: 'Disyuntor de 25A',                                 description: '',                      precio:'',        image: 'image/disyuntor.jpg' },
+    { name: 'Disyuntor de 40A',                                 description: '',                      precio:'',        image: 'image/disyuntor.jpg' },
+    { name: 'Ficha Macho de 3 Patas',                           description: '',                      precio:'',        image: 'image/ficha 1.jpg' },
+    { name: 'Ficha Hembra de 3 Patas',                          description: '',                      precio:'',        image: 'image/ficha 1.jpg' },
+    { name: 'Ficha Macho Richi',                                description: '',                      precio:'',        image: 'image/ficha richi.jpg' },
+    { name: 'Ficha Hembra Richi',                               description: '',                      precio:'',        image: 'image/ficha richi.jpg' },
+    { name: 'Lampara Led de 5w',                                description: '',                      precio:'',        image: 'image/lampara led.jpg' },
+    { name: 'Lampara Led de 7w',                                description: '',                      precio:'',        image: 'image/lampara led.jpg' },
+    { name: 'Lampara Led de 9w',                                description: '',                      precio:'',        image: 'image/lampara led.jpg' },
+    { name: 'Lampara Led de 12w',                               description: '',                      precio:'',        image: 'image/lampara led.jpg' },
+    { name: 'Lampara Led de 15w',                               description: '',                      precio:'',        image: 'image/lampara led.jpg' },
+    { name: 'Lampara Led de 20w',                               description: '',                      precio:'',        image: 'image/lampara 2.jpg' },
+    { name: 'Lampara Led de 30w',                               description: '',                      precio:'',        image: 'image/lampara 2.jpg' },
+    { name: 'Lampara Led de 40w',                               description: '',                      precio:'',        image: 'image/lampara 2.jpg' },
+    { name: 'Lampara Led de 50w',                               description: '',                      precio:'',        image: 'image/lampara 2.jpg' },
+    { name: 'Lampara Led Dicroica de 7w',                       description: '',                      precio:'',        image: 'image/lampara dicroica.jpg' },
+    { name: 'Termica Bipolar Sica de 10A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 15A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 20A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 25A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 32A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 40A',                      description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Termica Bipolar Sica de 50A y 63A',                description: '',                      precio:'',        image: 'image/termica.jpg' },
+    { name: 'Caja para Termica de 1 a 2 Termicas',              description: '',                      precio:'',        image: 'image/caja termica 1.jpg' },
+    { name: 'Caja para Termicas de 2 a 4 Termicas',             description: '',                      precio:'',        image: 'image/caja termica 2.jpg' },
+    { name: 'Caja para Termicas de 4 a 8 Termicas',             description: '',                      precio:'',        image: 'image/caja termica 2.jpg' },
+    { name: 'Caja para Termicas de 8 a 12 Termicas',            description: '',                      precio:'',        image: 'image/caja termica 2.jpg' },
+    { name: 'Reflector Led de 10w',                             description: '',                      precio:'',        image: 'image/reflector 10.jpg' },
+    { name: 'Reflector Led de 20w',                             description: '',                      precio:'',        image: 'image/reflector 20.jpg' },
+    { name: 'Reflector Led de 30w',                             description: '',                      precio:'',        image: 'image/reflector 30.jpg' },
+    { name: 'Reflector Led de 50w',                             description: '',                      precio:'',        image: 'image/reflector 50.jpg' },
+    { name: 'Reflector Led de 100w',                            description: '',                      precio:'',        image: 'image/reflector 100.jpg' },
+    { name: 'Luz de Emergencia Sica de 60 leds 8horas',         description: '',                      precio:'',        image: 'image/luz emergencia.jpg' },
+    { name: 'Luminaria Embutir Redonda de 6w',                  description: '',                      precio:'',        image: 'image/luminaria redonda.jpg' },
+    { name: 'Luminaria Embutir Redonda de 12w',                 description: '',                      precio:'',        image: 'image/luminaria redonda.jpg' },
+    { name: 'Luminaria Embutir Redonda de 18w',                 description: '',                      precio:'',        image: 'image/luminaria redonda.jpg' },
+    { name: 'Luminaria Embutir cuadrada de 6w',                 description: '',                      precio:'',        image: 'image/luminaria cuadrada.jpg' },
+    { name: 'Luminaria Embutir Cuadrada de 12w',                description: '',                      precio:'',        image: 'image/luminaria cuadrada.jpg' },
+    { name: 'Luminaria Embutir cuadrada de 18w',                description: '',                      precio:'',        image: 'image/luminaria cuadrada.jpg' },
+    { name: 'Luminaria Exterior Cuadrada de 12w',               description: '',                      precio:'',        image: 'image/luminaria exterior.jpg' },
+    { name: 'Luminaria Exterior Cuadrada de 18w',               description: '',                      precio:'',        image: 'image/luminaria exterior.jpg' },
+    { name: 'Luminaria Exterior Cuadrada de 24w',               description: '',                      precio:'',        image: 'image/luminaria exterior.jpg' },
+]
+
+
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 
@@ -311,7 +465,7 @@ function displayProducts(container, products) {
             <div class="row">
                 <div class="col">
                     <div class="product-card">
-                            <img src="${product.image}" alt="${product.name}" class="img-fluid">
+                        <img src="${product.image}" alt="${product.name}" class="img-fluid" onclick="enlargeImage(this)">
                         <h4>${product.name}</h4>
                         <p>${product.description}</p>
                         <p>${product.precio}</p>
@@ -323,6 +477,9 @@ function displayProducts(container, products) {
         container.innerHTML += productCard;
     });
 }
+
+
+
 
 // Función para buscar y mostrar productos en tiempo real
 function updateProductList() {
@@ -336,6 +493,15 @@ function updateProductList() {
 
     const filteredProductsAccesorios = searchProducts(productosAccesorios, keyword);
     displayProducts(document.getElementById('productCatalogAccesorios'), filteredProductsAccesorios);
+
+    const filteredProductsPlomeria = searchProducts(productosPlomeria, keyword);
+    displayProducts(document.getElementById('productCatalogPlomeria'), filteredProductsPlomeria);
+
+    const filteredProductsGas = searchProducts(productosGas, keyword);
+    displayProducts(document.getElementById('productCatalogGas'), filteredProductsGas);
+
+    const filteredProductsElectricidad = searchProducts(productosElectricidad, keyword);
+    displayProducts(document.getElementById('productCatalogElectricidad'), filteredProductsElectricidad);
 }
 
 // Evento de entrada de texto en el campo de búsqueda
@@ -345,6 +511,9 @@ searchInput.addEventListener('input', updateProductList);
 displayProducts(document.getElementById('productCatalogPlasticos'), productosPlasticos);
 displayProducts(document.getElementById('productCatalogHerrajes'), productosHerrajes);
 displayProducts(document.getElementById('productCatalogAccesorios'), productosAccesorios);
+displayProducts(document.getElementById('productCatalogPlomeria'), productosPlomeria);
+displayProducts(document.getElementById('productCatalogElectricidad'), productosElectricidad);
+displayProducts(document.getElementById('productCatalogGas'), productosGas);
 
 
 /* row-cols-1 row-cols-sm-2 row-cols-md-3*/
@@ -372,26 +541,33 @@ var header = document.querySelector('.header');
         lastScrollTop = scrollTop;
     });
 
-    // Función para desplazarse suavemente al inicio de la página
+    // Función para desplazarse suavemente hacia arriba
     function scrollToTop() {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth' // Desplazamiento suave
+            behavior: 'smooth'
         });
     }
+    
 
-    // Muestra u oculta el botón según la posición del usuario en la página
-    window.addEventListener('scroll', function () {
+   
+
+
+    // Función para mostrar u ocultar el botón según la posición de desplazamiento
+    window.onscroll = function () {
         var scrollButton = document.getElementById('scrollButton');
-        if (window.scrollY > 300) { // Cambia 300 según desees
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             scrollButton.style.display = 'block';
         } else {
             scrollButton.style.display = 'none';
         }
-    });
+    };
 
     // Cargar la imagen desde JavaScript
     document.addEventListener('DOMContentLoaded', function () {
         const logoImage = document.getElementById('logoImage');
         logoImage.src = 'logoprincipal.png';
     });
+
+    img = document.getElementById('myImg')
+img.style.transform = 'scale(1.9)'

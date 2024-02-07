@@ -7,7 +7,7 @@ body {
 .header {
     background-color: #fff;
     color: #fff;
-    padding: 50px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -83,6 +83,7 @@ body {
     margin: 10px;
     text-align: center;
     transition: transform 0.2s ease;
+    cursor: pointer;
     
 }
 
@@ -94,7 +95,17 @@ body {
 .product-card img {
     width: 150px;
     height: 140px;
+    
 }
+
+/*agregado*/
+
+.product-card img:hover {
+    transform: scale(2.5);
+    transition: 1.ms;
+}
+
+
 
 .product-card h4 {
     margin-top: 10px;
@@ -140,7 +151,7 @@ body {
     position: fixed;
     bottom: 20px; /* Ajusta la distancia desde la parte inferior */
     left: 20px; /* Ajusta la distancia desde la parte izquierda */
-    background-color: #75adea; /* Color de fondo del botón */
+    background-color: #007bff; /* Color de fondo del botón */
     color: #fff; /* Color del texto del botón */
     border: none;
     border-radius: 50%;
@@ -151,7 +162,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     z-index: 1000;
-    display: none; /* Oculta el botón inicialmente */
+    /*display: none; /* Oculta el botón inicialmente */
 }
 
 .scroll-to-top:hover {
@@ -159,9 +170,8 @@ body {
 }
 
 /* Estilos para la flecha hacia arriba */
-.scroll-to-top::before {
-    content: '\2191'; /* Código de la flecha hacia arriba */
-}
+
+
 
 /* Añade un sombreado suave al botón */
 .scroll-to-top:focus {
@@ -216,3 +226,4 @@ body {
         height: 200px; /* Mantendrá la proporción de aspecto original */
     }
 }
+
